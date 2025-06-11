@@ -2,7 +2,7 @@ Version: 1.2
 PPU-0a1d4f333831bfa502e7255c3ebce9ff8d0fa2f9:
   "ZamboniMultiplayerPatch":
     Games:
-      "NHL™ 10":
+      "NHL 10":
         BLES00567: [ 01.00 ]
     Author: "Kaap0"
     Notes: "might skip something very important..."
