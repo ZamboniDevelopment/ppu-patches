@@ -8,4 +8,5 @@ PPU-0a1d4f333831bfa502e7255c3ebce9ff8d0fa2f9:
     Notes: "might skip something very important..."
     Patch Version: 1.0
     Patch:
-        - [be32, 0x00f50964, 0x4E800020]
+        - [be32, 0x00f50964, 0x4E800020] #Login Skip (Skips creating OSDKSettings menus)
+        - [be32, 0x007f67e8, 0x4E800020] #Roster Skip (Skips checking online roster validity)
