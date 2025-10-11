@@ -5,7 +5,7 @@ PPU-0a1d4f333831bfa502e7255c3ebce9ff8d0fa2f9:
       "NHL 10":
         BLES00567: [ 01.00 ]
     Author: "Kaap0"
-    Notes: "might skip something very important..."
+    Notes: "Required to play Online for now. Might skip something very important..."
     Patch Version: 1.0
     Patch:
         - [be32, 0x00f50964, 0x4E800020] #Login Skip (Skips creating OSDKSettings menus)
