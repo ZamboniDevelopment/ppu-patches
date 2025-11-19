@@ -1,0 +1,52 @@
+Version: 1.2
+PPU-98290664b00f33310fcd313291298854a99681d4:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 11":
+        BLES00984: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x01030508, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x01033548, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0055d0b0, 0x4E800020] #Roster "fix"
+
+PPU-895148f45478933fe1e0ee8e3bb159f397c6ab77:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 11":
+        BLUS30568: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x01030508, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x01033548, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0055d0b0, 0x4E800020] #Roster "fix"
+
+PPU-f56d9caca2b30580ae3c9719ab82429ee941810f:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 11":
+        BLES00984: [ 01.01 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x00ee4c18, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x00ee7ccc, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0055db08, 0x4E800020] #Roster "fix"
+
+PPU-f56d9caca2b30580ae3c9719ab82429ee941810f:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 11":
+        BLUS30568: [ 01.02 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x00ee4c18, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x00ee7ccc, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0055db08, 0x4E800020] #Roster "fix"
