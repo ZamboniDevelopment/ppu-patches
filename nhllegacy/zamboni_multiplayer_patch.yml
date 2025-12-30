@@ -1,0 +1,26 @@
+PPU-c93019e83e820ad7ce6ac2428d022e7c09d484d3:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL Legacy":
+        BLES02153: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x008bc4bc, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x008bc494, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0104f0bc, 0x4bfd6524] #Roster "fix"
+      - [be32, 0x00211df0, 0x4bff8760] #Tuner "fix"
+PPU-cf2651406b00ee9c2af61fc1daf37fce50303474:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL Legacy":
+        BLUS31540: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x008bc4bc, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x008bc494, 0x4E800020] #crash "fix" (Mupset)
+      - [be32, 0x0104f0bc, 0x4bfd6524] #Roster "fix"
+      - [be32, 0x00211df0, 0x4bff8760] #Tuner "fix"
