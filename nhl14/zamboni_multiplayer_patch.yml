@@ -1,0 +1,27 @@
+Version: 1.2
+PPU-77278384022bc218f3910e476676b080aed0acd6:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 14":
+        BLES01853: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x008b9b34, 0x60000000] #crash "fix" (Mupset)
+      - [be32, 0x008b9740, 0x60000000] #crash "fix" (Mupset)
+      - [be32, 0x0106a0bc, 0x4bfffd21] #Roster "fix"
+      - [be32, 0x00408abc, 0x4bfffded] #Tuner "fix"
+PPU-c0822220e2e35bd1450b722b28d86216cca40a8d:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 14":
+        BLUS31179: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now. Might skip something very important..."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x008b9b34, 0x60000000] #crash "fix" (Mupset)
+      - [be32, 0x008b9740, 0x60000000] #crash "fix" (Mupset)
+      - [be32, 0x0106a0bc, 0x4bfffd21] #Roster "fix"
+      - [be32, 0x00408abc, 0x4bfffded] #Tuner "fix"
