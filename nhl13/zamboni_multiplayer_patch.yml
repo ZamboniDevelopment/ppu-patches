@@ -1,0 +1,11 @@
+PPU-0c03ccaf98dc4e37066bf5a670d5c3b61e180cf8:
+  "ZamboniMultiplayerPatch":
+    Games:
+      "NHL 13":
+        BLES01691: [ 01.00 ]
+        BLUS31003: [ 01.00 ]
+    Author: "Kaap0"
+    Notes: "Required to play Online for now"
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x005ccf60, 0x40820020] #Roster "fix"
